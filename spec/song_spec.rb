@@ -19,7 +19,7 @@ describe "Song" do
       expect{Song.new("hit me baby one more time", "Brittany Spears", "pop")}.to_not raise_error
     end
   end
-
+  
   describe "#name" do 
     it "has a name" do 
       expect(hit_me.name).to eq("hit me baby one more time")
